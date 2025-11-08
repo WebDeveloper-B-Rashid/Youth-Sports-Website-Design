@@ -190,11 +190,15 @@
             display: inline-block;
             font-size: 1.1rem;
             box-shadow: var(--shadow);
+           
         }
 
         .btn-primary:hover {
-            background-color: var(--secondary-light);
+            /* background-color: var(--secondary-light); */
+            background-color: var(--white);
+            color: var(--primary);
             transform: translateY(-3px);
+            
             box-shadow: var(--shadow-lg);
         }
 
